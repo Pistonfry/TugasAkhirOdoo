@@ -1,0 +1,508 @@
+2024-01-09 08:44:40,775 5620 INFO ? odoo: Odoo version 16.0-20231115 
+2024-01-09 08:44:40,776 5620 INFO ? odoo: Using configuration file at C:\Odoo\server\odoo.conf 
+2024-01-09 08:44:40,776 5620 INFO ? odoo: addons paths: ['C:\\Odoo\\server\\odoo\\addons', 'c:\\odoo\\sessions\\addons\\16.0', 'c:\\odoo\\server\\odoo\\addons'] 
+2024-01-09 08:44:40,776 5620 INFO ? odoo: database: openpg@localhost:5432 
+2024-01-09 08:44:42,689 5620 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Odoo\thirdparty\wkhtmltopdf.exe 
+2024-01-09 08:44:43,415 5620 WARNING ? py.warnings: C:\Odoo\python\lib\site-packages\num2words\lang_AR.py:191: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Odoo\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-01-09 08:44:43,417 5620 WARNING ? py.warnings: C:\Odoo\python\lib\site-packages\num2words\lang_AR.py:195: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Odoo\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-01-09 08:44:43,418 5620 WARNING ? py.warnings: C:\Odoo\python\lib\site-packages\num2words\lang_AR.py:229: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Odoo\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-01-09 08:44:43,419 5620 WARNING ? py.warnings: C:\Odoo\python\lib\site-packages\num2words\lang_AR.py:231: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Odoo\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-01-09 08:44:43,420 5620 WARNING ? py.warnings: C:\Odoo\python\lib\site-packages\num2words\lang_AR.py:239: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Odoo\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-01-09 08:44:43,422 5620 WARNING ? py.warnings: C:\Odoo\python\lib\site-packages\num2words\lang_AR.py:253: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Odoo\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-01-09 08:44:43,423 5620 WARNING ? py.warnings: C:\Odoo\python\lib\site-packages\num2words\lang_AR.py:291: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Odoo\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-01-09 08:44:43,424 5620 WARNING ? py.warnings: C:\Odoo\python\lib\site-packages\num2words\lang_AR.py:302: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "C:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Odoo\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-01-09 08:44:43,425 5620 WARNING ? py.warnings: C:\Odoo\python\lib\site-packages\num2words\lang_AR.py:305: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "C:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Odoo\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-01-09 08:44:43,713 5620 INFO ? odoo.service.server: Initiating shutdown 
+2024-01-09 08:44:43,714 5620 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-01-09 08:44:57,695 10868 INFO ? odoo: Odoo version 16.0-20231115 
+2024-01-09 08:44:57,696 10868 INFO ? odoo: Using configuration file at C:\Odoo\server\odoo.conf 
+2024-01-09 08:44:57,696 10868 INFO ? odoo: addons paths: ['C:\\Odoo\\server\\odoo\\addons', 'c:\\odoo\\sessions\\addons\\16.0', 'c:\\odoo\\server\\odoo\\addons'] 
+2024-01-09 08:44:57,696 10868 INFO ? odoo: database: openpg@localhost:5432 
+2024-01-09 08:44:57,863 10868 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Odoo\thirdparty\wkhtmltopdf.exe 
+2024-01-09 08:44:58,130 10868 INFO ? odoo.service.server: HTTP service (werkzeug) running on DEKSTOP-SCF15:8069 
+2024-01-09 08:45:02,195 10868 INFO ? odoo.sql_db: Connection to the database failed 
+2024-01-09 08:45:06,277 10868 INFO ? odoo.sql_db: Connection to the database failed 
+2024-01-09 08:53:48,436 10868 INFO ? werkzeug: 127.0.0.1 - - [09/Jan/2024 08:53:48] "GET / HTTP/1.1" 303 - 1 0.039 0.795
+2024-01-09 08:53:48,972 10868 INFO ? werkzeug: 127.0.0.1 - - [09/Jan/2024 08:53:48] "GET /web HTTP/1.1" 303 - 2 0.008 0.477
+2024-01-09 08:53:58,206 10868 INFO ? werkzeug: 127.0.0.1 - - [09/Jan/2024 08:53:58] "GET /web/database/selector HTTP/1.1" 200 - 2 0.008 8.753
+2024-01-09 08:56:24,076 10868 INFO None odoo.service.db: Create database `TugasAkhir`. 
+2024-01-09 08:56:25,641 10868 INFO TugasAkhir odoo.modules.loading: loading 1 modules... 
+2024-01-09 08:56:25,641 10868 INFO TugasAkhir odoo.modules.loading: Loading module base (1/1) 
+2024-01-09 08:56:25,670 10868 INFO TugasAkhir odoo.modules.registry: module base: creating or updating database tables 
+2024-01-09 08:56:26,241 10868 INFO TugasAkhir odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2024-01-09 08:56:26,241 10868 INFO TugasAkhir odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2024-01-09 08:56:26,241 10868 INFO TugasAkhir odoo.models: Prepare computation of ir.module.module.views_by_module 
+2024-01-09 08:56:26,463 10868 INFO TugasAkhir odoo.models: Prepare computation of res.partner.user_id 
+2024-01-09 08:56:26,464 10868 INFO TugasAkhir odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2024-01-09 08:56:26,464 10868 INFO TugasAkhir odoo.models: Prepare computation of res.partner.display_name 
+2024-01-09 08:56:26,464 10868 INFO TugasAkhir odoo.models: Prepare computation of res.partner.company_registry 
+2024-01-09 08:56:26,464 10868 INFO TugasAkhir odoo.models: Prepare computation of res.partner.commercial_company_name 
+2024-01-09 08:56:26,464 10868 INFO TugasAkhir odoo.models: Prepare computation of res.partner.partner_share 
+2024-01-09 08:56:26,543 10868 INFO TugasAkhir odoo.models: Prepare computation of res.currency.decimal_places 
+2024-01-09 08:56:26,589 10868 INFO TugasAkhir odoo.models: Prepare computation of res.company.logo_web 
+2024-01-09 08:56:26,645 10868 INFO TugasAkhir odoo.models: Prepare computation of res.users.signature 
+2024-01-09 08:56:26,645 10868 INFO TugasAkhir odoo.models: Prepare computation of res.users.share 
+2024-01-09 08:56:29,174 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_bank.xml 
+2024-01-09 08:56:29,205 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res.lang.csv 
+2024-01-09 08:56:29,264 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_lang_data.xml 
+2024-01-09 08:56:29,323 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_partner_data.xml 
+2024-01-09 08:56:29,411 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_currency_data.xml 
+2024-01-09 08:56:29,904 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_company_data.xml 
+2024-01-09 08:56:29,937 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_users_data.xml 
+2024-01-09 08:56:30,695 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2024-01-09 08:56:30,713 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_country_data.xml 
+2024-01-09 08:56:31,216 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2024-01-09 08:56:31,238 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2024-01-09 08:56:31,252 10868 INFO TugasAkhir odoo.modules.loading: loading base/security/base_groups.xml 
+2024-01-09 08:56:31,493 10868 INFO TugasAkhir odoo.modules.loading: loading base/security/base_security.xml 
+2024-01-09 08:56:31,611 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/base_menus.xml 
+2024-01-09 08:56:31,748 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2024-01-09 08:56:31,792 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/res_config_views.xml 
+2024-01-09 08:56:31,812 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res.country.state.csv 
+2024-01-09 08:56:32,554 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2024-01-09 08:56:32,697 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2024-01-09 08:56:32,728 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2024-01-09 08:56:32,756 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2024-01-09 08:56:32,806 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2024-01-09 08:56:32,833 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2024-01-09 08:56:32,867 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2024-01-09 08:56:32,914 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_model_views.xml 
+2024-01-09 08:56:33,130 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2024-01-09 08:56:33,166 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2024-01-09 08:56:33,203 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2024-01-09 08:56:33,237 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2024-01-09 08:56:33,270 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2024-01-09 08:56:33,336 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_default_views.xml 
+2024-01-09 08:56:33,366 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2024-01-09 08:56:33,381 10868 INFO TugasAkhir odoo.modules.loading: loading base/report/ir_model_report.xml 
+2024-01-09 08:56:33,393 10868 INFO TugasAkhir odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2024-01-09 08:56:33,410 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2024-01-09 08:56:33,441 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2024-01-09 08:56:33,459 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_module_views.xml 
+2024-01-09 08:56:33,549 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2024-01-09 08:56:33,625 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/ir_module_module.xml 
+2024-01-09 08:56:33,709 10868 INFO TugasAkhir odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2024-01-09 08:56:33,721 10868 INFO TugasAkhir odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2024-01-09 08:56:33,735 10868 INFO TugasAkhir odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2024-01-09 08:56:33,757 10868 INFO TugasAkhir odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2024-01-09 08:56:33,779 10868 INFO TugasAkhir odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2024-01-09 08:56:33,799 10868 INFO TugasAkhir odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2024-01-09 08:56:33,829 10868 INFO TugasAkhir odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2024-01-09 08:56:33,846 10868 INFO TugasAkhir odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2024-01-09 08:56:33,868 10868 INFO TugasAkhir odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2024-01-09 08:56:33,894 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2024-01-09 08:56:33,905 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2024-01-09 08:56:33,932 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2024-01-09 08:56:33,969 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/res_company_views.xml 
+2024-01-09 08:56:34,003 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/res_lang_views.xml 
+2024-01-09 08:56:34,036 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/res_partner_views.xml 
+2024-01-09 08:56:34,183 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/res_bank_views.xml 
+2024-01-09 08:56:34,231 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/res_country_views.xml 
+2024-01-09 08:56:34,284 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/res_currency_views.xml 
+2024-01-09 08:56:34,335 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/res_users_views.xml 
+2024-01-09 08:56:34,486 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/ir_property_views.xml 
+2024-01-09 08:56:34,522 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2024-01-09 08:56:34,540 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2024-01-09 08:56:34,587 10868 INFO TugasAkhir odoo.modules.loading: loading base/views/onboarding_views.xml 
+2024-01-09 08:56:34,638 10868 INFO TugasAkhir odoo.modules.loading: loading base/security/ir.model.access.csv 
+2024-01-09 08:56:34,798 10868 INFO TugasAkhir odoo.modules.loading: Module base: loading demo 
+2024-01-09 08:56:34,799 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_company_demo.xml 
+2024-01-09 08:56:34,815 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_users_demo.xml 
+2024-01-09 08:56:35,762 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2024-01-09 08:56:35,775 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2024-01-09 08:56:36,072 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2024-01-09 08:56:36,083 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2024-01-09 08:56:36,405 10868 INFO TugasAkhir odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2024-01-09 08:56:37,339 10868 INFO TugasAkhir odoo.modules.loading: Module base loaded in 11.70s, 8989 queries (+8989 other) 
+2024-01-09 08:56:37,339 10868 INFO TugasAkhir odoo.modules.loading: 1 modules loaded in 11.70s, 8989 queries (+8989 extra) 
+2024-01-09 08:56:37,386 10868 INFO TugasAkhir odoo.modules.loading: updating modules list 
+2024-01-09 08:56:37,387 10868 INFO TugasAkhir odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2024-01-09 08:56:37,983 10868 INFO TugasAkhir odoo.modules.loading: loading 8 modules... 
+2024-01-09 08:56:37,984 10868 INFO TugasAkhir odoo.modules.loading: Loading module web (2/8) 
+2024-01-09 08:56:38,009 10868 INFO TugasAkhir odoo.modules.registry: module web: creating or updating database tables 
+2024-01-09 08:56:38,649 10868 INFO TugasAkhir odoo.modules.loading: loading web/security/ir.model.access.csv 
+2024-01-09 08:56:38,671 10868 INFO TugasAkhir odoo.modules.loading: loading web/views/webclient_templates.xml 
+2024-01-09 08:56:38,771 10868 INFO TugasAkhir odoo.modules.loading: loading web/views/report_templates.xml 
+2024-01-09 08:56:38,888 10868 INFO TugasAkhir odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2024-01-09 08:56:38,914 10868 INFO TugasAkhir odoo.modules.loading: loading web/views/speedscope_template.xml 
+2024-01-09 08:56:38,935 10868 INFO TugasAkhir odoo.modules.loading: loading web/views/lazy_assets.xml 
+2024-01-09 08:56:38,950 10868 INFO TugasAkhir odoo.modules.loading: loading web/views/neutralize_views.xml 
+2024-01-09 08:56:38,965 10868 INFO TugasAkhir odoo.modules.loading: loading web/data/ir_attachment.xml 
+2024-01-09 08:56:38,979 10868 INFO TugasAkhir odoo.modules.loading: loading web/data/report_layout.xml 
+2024-01-09 08:56:39,035 10868 INFO TugasAkhir odoo.modules.loading: Module web loaded in 1.05s, 882 queries (+882 other) 
+2024-01-09 08:56:39,035 10868 INFO TugasAkhir odoo.modules.loading: Loading module auth_totp (3/8) 
+2024-01-09 08:56:39,247 10868 INFO TugasAkhir odoo.modules.registry: module auth_totp: creating or updating database tables 
+2024-01-09 08:56:39,330 10868 INFO TugasAkhir odoo.modules.loading: loading auth_totp/security/security.xml 
+2024-01-09 08:56:39,367 10868 INFO TugasAkhir odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2024-01-09 08:56:39,383 10868 INFO TugasAkhir odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2024-01-09 08:56:39,399 10868 INFO TugasAkhir odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2024-01-09 08:56:39,438 10868 INFO TugasAkhir odoo.modules.loading: loading auth_totp/views/templates.xml 
+2024-01-09 08:56:39,453 10868 INFO TugasAkhir odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2024-01-09 08:56:39,487 10868 INFO TugasAkhir odoo.modules.loading: Module auth_totp loaded in 0.45s, 174 queries (+174 other) 
+2024-01-09 08:56:39,487 10868 INFO TugasAkhir odoo.modules.loading: Loading module base_import (4/8) 
+2024-01-09 08:56:39,609 10868 INFO TugasAkhir odoo.modules.registry: module base_import: creating or updating database tables 
+2024-01-09 08:56:40,555 10868 INFO TugasAkhir odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2024-01-09 08:56:40,603 10868 INFO TugasAkhir odoo.modules.loading: Module base_import loaded in 1.12s, 891 queries (+891 other) 
+2024-01-09 08:56:40,603 10868 INFO TugasAkhir odoo.modules.loading: Loading module bus (5/8) 
+2024-01-09 08:56:40,763 10868 INFO TugasAkhir odoo.modules.registry: module bus: creating or updating database tables 
+2024-01-09 08:56:40,909 10868 INFO TugasAkhir odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2024-01-09 08:56:40,937 10868 INFO TugasAkhir odoo.modules.loading: Module bus loaded in 0.33s, 103 queries (+103 other) 
+2024-01-09 08:56:40,937 10868 INFO TugasAkhir odoo.modules.loading: Loading module web_kanban_gauge (6/8) 
+2024-01-09 08:56:40,988 10868 INFO TugasAkhir odoo.modules.loading: Module web_kanban_gauge loaded in 0.05s, 12 queries (+12 other) 
+2024-01-09 08:56:40,988 10868 INFO TugasAkhir odoo.modules.loading: Loading module web_tour (7/8) 
+2024-01-09 08:56:41,048 10868 INFO TugasAkhir odoo.modules.registry: module web_tour: creating or updating database tables 
+2024-01-09 08:56:41,094 10868 INFO TugasAkhir odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2024-01-09 08:56:41,109 10868 INFO TugasAkhir odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2024-01-09 08:56:41,123 10868 INFO TugasAkhir odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2024-01-09 08:56:41,164 10868 INFO TugasAkhir odoo.modules.loading: Module web_tour loaded in 0.18s, 101 queries (+101 other) 
+2024-01-09 08:56:41,164 10868 INFO TugasAkhir odoo.modules.loading: Loading module web_editor (8/8) 
+2024-01-09 08:56:41,478 10868 INFO TugasAkhir odoo.modules.registry: module web_editor: creating or updating database tables 
+2024-01-09 08:56:42,165 10868 INFO TugasAkhir odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2024-01-09 08:56:42,181 10868 INFO TugasAkhir odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2024-01-09 08:56:42,194 10868 INFO TugasAkhir odoo.modules.loading: loading web_editor/views/editor.xml 
+2024-01-09 08:56:42,229 10868 INFO TugasAkhir odoo.modules.loading: loading web_editor/views/snippets.xml 
+2024-01-09 08:56:42,291 10868 INFO TugasAkhir odoo.modules.loading: Module web_editor loaded in 1.13s, 821 queries (+821 other) 
+2024-01-09 08:56:42,291 10868 INFO TugasAkhir odoo.modules.loading: 8 modules loaded in 4.31s, 2984 queries (+2984 extra) 
+2024-01-09 08:56:42,544 10868 INFO TugasAkhir odoo.modules.loading: Modules loaded. 
+2024-01-09 08:56:42,546 10868 INFO TugasAkhir odoo.modules.registry: Registry loaded in 16.922s 
+2024-01-09 08:56:43,387 10868 INFO TugasAkhir odoo.addons.base.models.res_users: Login successful for db:TugasAkhir login:kuradakohanako@gmail.com from 127.0.0.1 
+2024-01-09 08:56:43,399 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:56:43] "POST /web/database/create HTTP/1.1" 303 - 16951 9.807 9.672
+2024-01-09 08:56:43,410 10868 INFO TugasAkhir odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-01-09 08:56:43,527 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:56:43] "GET /web HTTP/1.1" 303 - 6 0.003 0.123
+2024-01-09 08:57:00,793 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:00] "GET /web/login HTTP/1.1" 200 - 68 0.047 17.215
+2024-01-09 08:57:01,145 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:01] "GET /web/assets/190-5dd1654/web.assets_frontend.min.css HTTP/1.1" 200 - 6 0.002 0.016
+2024-01-09 08:57:01,244 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:01] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.011 0.089
+2024-01-09 08:57:01,274 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:01] "GET /web/assets/191-39421cb/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 5 0.008 0.120
+2024-01-09 08:57:01,773 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:01] "GET /web/assets/192-6ffe8f2/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 5 0.006 0.385
+2024-01-09 08:57:01,958 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:01] "GET /web/webclient/translations/1704790621940 HTTP/1.1" 200 - 3 0.002 0.012
+2024-01-09 08:57:02,276 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:02] "GET /web/webclient/translations/1704790621963 HTTP/1.1" 200 - 3 0.002 0.004
+2024-01-09 08:57:20,084 10868 INFO TugasAkhir odoo.addons.base.models.res_users: Login successful for db:TugasAkhir login:kuradakohanako@gmail.com from 127.0.0.1 
+2024-01-09 08:57:20,095 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:20] "POST /web/login HTTP/1.1" 303 - 29 0.044 0.453
+2024-01-09 08:57:44,043 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:44] "GET /web HTTP/1.1" 200 - 95 0.107 23.838
+2024-01-09 08:57:44,493 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:44] "GET /web/assets/193-559acc4/web.assets_common.min.css HTTP/1.1" 200 - 4 0.006 0.098
+2024-01-09 08:57:44,493 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:44] "GET /web/assets/194-e5d5fe5/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.003 0.083
+2024-01-09 08:57:44,499 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:44] "GET /web/webclient/load_menus/3b5665afdb76f0b35edca6c8b7486724a31b5c9e8fd5a2aa71a636993cb1dd9b HTTP/1.1" 200 - 1 0.001 0.087
+2024-01-09 08:57:44,531 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:44] "GET /web/assets/197-12a9834/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.010 0.112
+2024-01-09 08:57:44,644 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:44] "GET /web/assets/196-e5d5fe5/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.005 0.231
+2024-01-09 08:57:44,830 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:44] "GET /web/webclient/translations/65607f58d5469d51a5b051eb66c57db2c3d405a5?lang=en_US HTTP/1.1" 200 - 3 0.007 0.005
+2024-01-09 08:57:44,857 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:44] "GET /web/assets/195-559acc4/web.assets_common.min.js HTTP/1.1" 200 - 4 0.009 0.440
+2024-01-09 08:57:45,617 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:45] "POST /web/action/load HTTP/1.1" 200 - 11 0.018 0.015
+2024-01-09 08:57:45,702 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:45] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.013 0.024
+2024-01-09 08:57:45,764 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:45] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.058 0.042
+2024-01-09 08:57:45,866 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:45] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.020 0.006
+2024-01-09 08:57:45,972 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:45] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.024 0.011
+2024-01-09 08:57:46,041 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:46] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.006
+2024-01-09 08:57:46,105 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:46] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.003 0.007
+2024-01-09 08:57:46,170 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:46] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 9 0.012 0.062
+2024-01-09 08:57:46,656 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 08:57:46] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.006
+2024-01-09 08:57:46,661 10868 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-01-09 09:24:56,319 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 09:24:56] "GET /web HTTP/1.1" 200 - 9 0.011 0.009
+2024-01-09 09:24:56,834 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 09:24:56] "POST /web/action/load HTTP/1.1" 200 - 10 0.008 0.016
+2024-01-09 09:24:56,837 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 09:24:56] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.006 0.019
+2024-01-09 09:24:57,193 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 09:24:57] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.001 0.015
+2024-01-09 09:24:57,199 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 09:24:57] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.009 0.012
+2024-01-09 09:24:57,217 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 09:24:57] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.007
+2024-01-09 09:24:57,458 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 09:24:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.016 0.009
+2024-01-09 09:24:57,525 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 09:24:57] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.007
+2024-01-09 09:24:57,534 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 09:24:57] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.002 0.005
+2024-01-09 09:24:57,545 10868 INFO TugasAkhir werkzeug: 127.0.0.1 - - [09/Jan/2024 09:24:57] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.002 0.006
+2024-01-09 09:27:03,169 10868 INFO ? odoo.service.server: Initiating shutdown 
+2024-01-09 09:27:03,169 10868 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-01-09 09:27:03,480 10868 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
