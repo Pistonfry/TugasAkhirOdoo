@@ -3,6 +3,7 @@
     'author':'SCF',
     'website': 'aaaaaaa',
     'summary': 'Hospital Management System (Tugas Akhir)',
+    'depends':['mail'],
     'data':[
         'views/menu.xml',
         'views/patient.xml',
