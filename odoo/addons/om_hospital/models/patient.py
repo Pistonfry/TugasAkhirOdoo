@@ -24,6 +24,7 @@ class HostpitalPatient(models.Model):
                                  compute='_compute_capitalized_name', 
                                  store=True)
     ref=fields.Char(string="Reference",default=lambda self:_('New'))
+    doctor_id=fields.Many2one('hospital.doctor',string="Doctor")
 
     @api.model_create_multi
     def create(self,vals_list):
