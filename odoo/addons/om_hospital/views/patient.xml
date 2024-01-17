@@ -18,6 +18,7 @@
                         <field name="gender"/>
                         <field name="doctor_id" options="{'no_open':False,'no_create':True}"/>
                         <field name="capitalized_name"/>
+                        <field name="tag_ids" widget="many2many_tags"/>
                     </group>
                 </sheet>
                 <div class="oe_chatter">
