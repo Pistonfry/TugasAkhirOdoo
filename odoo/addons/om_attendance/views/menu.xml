@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <menuitem id="menu_TA_attendance_root"
+            name="TA_Attendance"
+            sequence="10"/>
+
+        <menuitem id="menu_TA_attendance_data"
+            name="Attendance Data"
+            parent="menu_TA_attendance_root"
+            sequence="10"/>
+            
+        <menuitem id="menu_TA_attendance_shift"
+            name="Work Shift"
+            parent="menu_TA_attendance_root"
+            sequence="10"/>
+</odoo>
